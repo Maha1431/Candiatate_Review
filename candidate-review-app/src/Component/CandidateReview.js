@@ -11,10 +11,9 @@ function CandidateReview({ candidate }) {
     return percentage > 50 ? "green" : "orange";
   };
 
-  const getScorebarColor = (percentage) => {
-    return percentage > 8 ? "green" : "orange";
+  const getScorebarColor = (value) => {
+    return value >= 60 ? "green" : "orange"; // Adjust the threshold as needed
   };
- 
   // Calculate the average score out of 10
   const totalScore = candidate.scores.reduce((acc, curr) => acc + curr.value, 0);
   const averageScore = (totalScore / candidate.scores.length) * 0.1;
