@@ -52,10 +52,4 @@
   display: flex;
   justify-content: space-around;
 }
-.progress-bar-green {
-  background-color: green !important; /* Adjust the color as needed */
-}
 
-.progress-bar-orange {
-  background-color: orange !important; /* Adjust the color as needed */
-}
