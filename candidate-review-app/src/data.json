@@ -1,0 +1,92 @@
+
+{
+    "candidates": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "photo": "john-doe.jpg",
+        "email": "john@example.com",
+        "phone": "123-456-7890",
+        "scores": [
+          { "type": "Behavioural", "value": 90 },
+          { "type": "Communication", "value": 85 },
+          { "type": "Situation handling", "value": 95 }
+        ]
+        
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "photo": "jane-smith.jpg",
+        "email": "jane@example.com",
+        "phone": "987-654-3210",
+        "scores": [
+          { "type": "Behavioural", "value": 85 },
+          { "type": "Communication", "value": 90 },
+          { "type": "Situation handling", "value": 80 }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "photo": "alice-johnson.jpg",
+        "email": "alice@example.com",
+        "phone": "555-123-4567",
+        "scores": [
+          { "type": "Behavioural", "value": 95 },
+          { "type": "Communication", "value": 55 },
+          { "type": "Situation handling", "value": 85 }
+        ]
+      
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "photo": "bob-brown.jpg",
+        "email": "bob@example.com",
+        "phone": "333-555-7777",
+        "scores": [
+          { "type": "Behavioural", "value": 40 },
+          { "type": "Communication", "value": 65 },
+          { "type": "Situation handling", "value": 31 }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Emily Davis",
+        "photo": "emily-davis.jpg",
+        "email": "emily@example.com",
+        "phone": "111-222-3333",
+        "scores": [
+          { "type": "Behavioural", "value": 58 },
+          { "type": "Communication", "value": 72 },
+          { "type": "Situation handling", "value": 40 }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Michael Wilson",
+        "photo": "michael-wilson.jpg",
+        "email": "michael@example.com",
+        "phone": "999-888-7777",
+        "scores": [
+          { "type": "Behavioural", "value": 52 },
+          { "type": "Communication", "value": 78 },
+          { "type": "Situation handling", "value": 45 }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Sophia Martinez",
+        "photo": "sophia-martinez.jpg",
+        "email": "sophia@example.com",
+        "phone": "444-666-8888",
+        "scores": [
+          { "type": "Behavioural", "value": 43 },
+          { "type": "Communication", "value": 27 },
+          { "type": "Situation handling", "value": 33 }
+        ]
+      }
+    ]
+  }
+  

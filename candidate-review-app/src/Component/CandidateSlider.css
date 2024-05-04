@@ -1,0 +1,64 @@
+.candidate-slider {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  
+  .slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    padding: 0 10px;
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+  }
+  
+  .slider-button {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .prev-icon,
+  .next-icon {
+    font-size: 36px;
+    color: grey;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+  }
+  
+  .prev-icon {
+    left: 10px;
+  }
+  
+  .next-icon {
+    right: 20px;
+   
+  }
+  
